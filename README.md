@@ -61,7 +61,7 @@ s;School;Y
 ```
 
 > <L> Load data must always come first, followed by the data file name and then the key to load data.
-<S>,<H>,<B>,<W>,<Q> does the same functions as the Text User Interface *text_ui.py*
+'S','H','B','W','Q' does the same functions as the Text User Interface *text_ui.py*
 ## Credits 
 |Team Member| Role |
 | ------ | ------ |
