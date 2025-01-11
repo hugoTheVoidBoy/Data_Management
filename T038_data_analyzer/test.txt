@@ -1,0 +1,9 @@
+L;student-mat.csv;Age
+s;G1;Y
+b;Age
+w;Health
+h;StudyTime
+h;Failures
+c;School
+Q
+s;School;Y
