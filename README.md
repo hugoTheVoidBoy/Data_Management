@@ -23,12 +23,21 @@
 **Make sure T038_data_analyzer folder is in the same folder with the data file!**
 To use Data Analyzer, run '*text_ui.py*' file. A User Interface will show up. Type in the letter to use the commands. Case does not matter. 
 - Always load <L> the data from a file first, based on which key is needed to load data. 
+<<<<<<< HEAD
 - <S> is to sort data from low to high, based on the categories listed on the menu.
 - <H> to show histogram of the overall statistics of the categories listed on the menu.
 - <W> to show the worst Average Grade data of the category listed on the menu.
 - <B> to show the best Average Grade data of the category listed on the menu.
 - <Q> to quit user interface. 
 - *If un unrecognized command is entered, user can choose to type in another command*
+=======
+  <S> is to sort data from low to high, based on the categories listed on the menu.
+  <H> to show histogram of the overall statistics of the categories listed on the menu.
+  <W> to show the worst Average Grade data of the category listed on the menu.
+  <B> to show the best Average Grade data of the category listed on the menu.
+  <Q> to quit user interface.
+ *If un unrecognized command is entered, user can choose to type in another command*
+>>>>>>> dfcc5b95b5dad4de5370f1079fc5667c8e5dddb1
 ```bash 
         The available commands are:
         1. L) oad Data
