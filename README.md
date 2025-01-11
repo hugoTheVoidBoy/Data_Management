@@ -27,7 +27,7 @@ To use Data Analyzer, run '*text_ui.py*' file. A User Interface will show up. Ty
 - <H> to show histogram of the overall statistics of the categories listed on the menu.
 - <W> to show the worst Average Grade data of the category listed on the menu.
 - <B> to show the best Average Grade data of the category listed on the menu.
-- <Q> to quit user interface.
+- <Q> to quit user interface. 
 - *If un unrecognized command is entered, user can choose to type in another command*
 ```bash 
         The available commands are:
