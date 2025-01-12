@@ -17,14 +17,15 @@
 - A python IDE to open the folder.
 - The IDE which was used to create the project was WING 101.8 [https://wingware.com/downloads/wing-101]
 - Project application is delivered in form of T038_data_analyzer.zip folder. Unzip for usage. Or run this bash:
-  ```bash 
+
+  ```bash
   git clone https://github.com/hugoTheVoidBoy/Data_Management
   cd Data_Management
   cd T038_data_analyzer
   pip install matplotlib
   pip install scipy
   python T038_M3_text_ui.py
-
+```
 ## Usage 
 > The application is delivered in T038_data_analyzer.zip folder. Unzip in your desired location where the data file is located.
 **Make sure T038_data_analyzer folder is in the same folder with the data file!**
