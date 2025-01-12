@@ -24,9 +24,7 @@
   pip install matplotlib
   pip install scipy
   python T038_M3_text_ui.py
-  
-```
-```
+
 ## Usage 
 > The application is delivered in T038_data_analyzer.zip folder. Unzip in your desired location where the data file is located.
 **Make sure T038_data_analyzer folder is in the same folder with the data file!**
