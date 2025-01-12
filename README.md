@@ -10,7 +10,10 @@
 - MatPlot Library Version 3.6.0 [https://matplotlib.org/]
 - Spicy Library Version 1.9.3 [https://docs.scipy.org/doc/scipy/reference/optimize.html]
 ## Description 
->This project organizes data from a spreadsheet into multiple dictionaries (each organized based on one specific aspect of information about the student). These dictionaries were tested to make sure that they contain all the information from the csv file. Functions were created that sort the dictionaries based on one specific aspect of the information about the students (for example, a user could sort the information from lowest to highest grade average (G_Avg). Polynomial functions were then created to graph the data into histograms to easily view the data. Functions were created that dispaly the x and y coordinate of the local maximum and minimum of the graph for any given piece of information. Finally, UI allows the user to type in exactly what is needed to be displayed. Data can be viewed in organized and simplified ways, depending on the choice typed into UI. 
+>This project organizes data from a spreadsheet into multiple dictionaries (each organized based on one specific aspect of information about the student). These dictionaries were unit-tested to make sure that they contain all the information from the csv file.
+>Functions were created to sort the dictionaries based on one specific info of the information about the students (for example, a user could sort the information from lowest to highest grade average (G_Avg).
+>Polynomial functions were then created to graph the data into histograms to easily view the data. Functions were created that dispaly the x and y coordinate of the local maximum and minimum of the graph for any given piece of information.
+>Finally, UI allows the user to type in exactly what is needed to be displayed. Data can be viewed in organized and simplified ways, depending on the choice typed into UI. 
 
 ## Installation
 - Latest version of all softwares are provided with detail in the "Software Name and Version" section.
