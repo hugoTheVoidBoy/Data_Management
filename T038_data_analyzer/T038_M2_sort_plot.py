@@ -10,9 +10,10 @@ from T038_M1_load_data import student_health_dictionary
 from T038_M1_load_data import student_ages_dictionary
 from T038_M1_load_data import student_failures_dictionary
 from T038_M1_load_data import add_average
+from typing import Dict,List
 
 
-def student_list(dictionary: dict) -> list[dict]:
+def student_list(dictionary: Dict) -> List[Dict]:
     """ Returns the data from a dictionary in the form of a list. 
 
     Examples: 
@@ -40,7 +41,7 @@ def student_list(dictionary: dict) -> list[dict]:
     return (student_list)
 
 
-def sort_students_bubble(dictionary: dict, string: str) -> list[dict]:
+def sort_students_bubble(dictionary: Dict, string: str) -> List[Dict]:
     """Return a sorted list of dictionaries given the dictionary and a string,
     the string dictates what key the dictionary will be sorted by
 
@@ -186,7 +187,7 @@ def sort_students_bubble(dictionary: dict, string: str) -> list[dict]:
     return arr
 
 
-def sort_students_selection(dictionary: dict, attribute: str) -> list[dict]:
+def sort_students_selection(dictionary: Dict, attribute: str) -> List[Dict]:
     """ Returns the dictionary passed to the function sorted by the indicated
     attribute which could be any of the keys listed in the dictionary. All 
     attributes will be sorted in ascending numerical order except for "School" 
@@ -221,7 +222,7 @@ def sort_students_selection(dictionary: dict, attribute: str) -> list[dict]:
         selection[i], selection[min_index] = selection[min_index], selection[i]
     return selection  # returns the soreted dictionary by the attribute
 
-def curve_fit(dct: dict, attr : str, poly: int) -> list:
+def curve_fit(dct: Dict, attr : str, poly: int) -> List:
     """ Given desired dictionary and attributr
     Return equation of the best fit of the average Avg as a list of coefficients 
     Condition: 1 < poly < 5
@@ -274,7 +275,7 @@ def curve_fit(dct: dict, attr : str, poly: int) -> list:
        
     return (numpy.polyfit(list_x, list_y, z))
 
-def histogram(dictionary: dict, string: str) -> None:
+def histogram(dictionary: Dict, string: str) -> None:
     """
     Preconditions: 
     "string" is an attribute. (eg. School, Health, Age, etc.)

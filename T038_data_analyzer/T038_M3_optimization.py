@@ -11,8 +11,9 @@ from T038_M1_load_data import add_average
 import matplotlib.pyplot as plt
 from scipy.optimize import fminbound
 import numpy
+from typing import List, Dict
 
-def student_list(dictionary: dict) -> list[dict]:
+def student_list(dictionary: Dict) -> List[Dict]:
     """ Returns the data from a dictionary in the form of a list. 
 
     Examples: 
@@ -39,7 +40,7 @@ def student_list(dictionary: dict) -> list[dict]:
             student_list.append(student)
     return (student_list)
 
-def curve_fit(dct: dict, attr: str, poly: int) -> list:
+def curve_fit(dct: Dict, attr: str, poly: int) -> List:
     """ Given desired dictionary and attributr
     Return equation of the best fit of the average Avg as a list of coefficients 
     Condition: 1 < poly < 5
@@ -90,7 +91,7 @@ def curve_fit(dct: dict, attr: str, poly: int) -> list:
     
     return coef, interval
 
-def maximum(dictionary: dict, attribute: str) -> tuple:
+def maximum(dictionary: Dict, attribute: str) -> tuple:
     """
     Returns a tuple containing the x and y value of the local maximun between 
     the lowest and the highest value of the attribute.
@@ -109,7 +110,7 @@ def max_curve_function(x):
     global coef
     return -curve_function(coef, x)
 
-def curve_function(coef_list: list[float], x: float):
+def curve_function(coef_list: List[float], x: float):
     """Return a polynomial based on the coefficients from coef_list
     Precondition: (coef_list) > 0
     """
@@ -119,7 +120,7 @@ def curve_function(coef_list: list[float], x: float):
 
 
 
-def curve_fit2(dct: dict, attr: str, degree: int):
+def curve_fit2(dct: Dict, attr: str, degree: int):
     """ Given desired dictionary and attributr
     Return equation of the best fit of the average Avg as a list of coefficients 
     Condition: 1 < poly < 5
@@ -184,7 +185,7 @@ def find_y(x):
 # Minimum function
 
 
-def minimum(dictionary: dict, string: str) -> tuple:
+def minimum(dictionary: Dict, string: str) -> tuple:
     """Returns the local minimum point in tuple form (x,y), 
     Given a string that tells the function which x_values to use
 

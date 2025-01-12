@@ -5,12 +5,12 @@
 
 
 import string
-from typing import List
+from typing import Dict,List
 from check_equal import check_equal
 
 # Ashley Tran
 # 101262975
-def student_school_dictionary(filename: str) -> dict[str, list[dict[str, int]]]: #Function1
+def student_school_dictionary(filename: str) -> Dict[str, List[Dict[str, int]]]: #Function1
     """
     Return dictornary with the school initials as the key.
     
@@ -74,7 +74,7 @@ def student_school_dictionary(filename: str) -> dict[str, list[dict[str, int]]]:
 
 #AmberBoies
 #101263889
-def student_ages_dictionary(filename: str) -> dict:
+def student_ages_dictionary(filename: str) -> Dict:
     """ Prints multiple dictionaries with the key as the students age in the
     range of 15 to 22. Inside each of these dictionaries there is a list of 
     all students data with the same age as the key. 
@@ -151,7 +151,7 @@ def student_ages_dictionary(filename: str) -> dict:
     return(age_dictionary)
 
 # Lucas Hallam (#101273089)
-def student_health_dictionary(filename: str) -> dict:  #Function3
+def student_health_dictionary(filename: str) -> Dict:  #Function3
     """Returns a dictionary which is made up of lists of dictionaries, 
     given data to be sorted. 
 
@@ -218,7 +218,7 @@ def student_health_dictionary(filename: str) -> dict:  #Function3
 
 #HugoNgo
 #101281485
-def student_failures_dictionary(filename: str) ->  dict: #Function4
+def student_failures_dictionary(filename: str) ->  Dict: #Function4
     """
     Run through csv file to get data and print out the list of dictionary of failures from the students from 0 to 10.
     Precondition: csv file has to be in the same folder with this python file
@@ -326,7 +326,7 @@ def load_data(filechoice: str, choice: str) -> List[str]:
 
 
 
-def add_average(dict_name: dict) -> dict:
+def add_average(dict_name: dict) -> Dict:
     """
     Add the average of the student’s grades (G1, G2 and G3) as an 
     additional attribute to the dictionary. Return the dictionary updated with 
